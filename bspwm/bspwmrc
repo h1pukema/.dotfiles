@@ -47,7 +47,7 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Zathura state=tailed 
 
-feh --bg-fill /home/h1pukema/Descargas/nord-dunas.png
+feh --bg-fill ~/.dotfiles/nord-dunas.png
 bspc config focus_follows_pointer true
 xsetroot -cursor_name left_ptr &
 setxkbmap es -option caps:swapescape
