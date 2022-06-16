@@ -2,6 +2,14 @@
 # Apps
 ####################################################################################
 
+# Screen Capture Gui
+alt + shift + 3
+    flameshot gui
+
+# Screen Capture Full
+alt + shift + 4
+    flameshot full
+
 # Xcalc
 alt + 8
     xcalc
