@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
 
-# Add this script to your wm startup file.
-
+# Ruta de configuración
 DIR="$HOME/.config/polybar"
 
-# Terminate already running bar instances
+# Terminar con los posibles procesos
 killall -q polybar
 
-# Wait until the processes have been shut down
+# Esperar a que el proceso esté terminado
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
-# Launch the bar
+# Lanzar las 3 barras
 polybar izquierda -c "$DIR"/config.ini &
 polybar centro -c "$DIR"/config.ini &
 polybar derecha -c "$DIR"/config.ini &
