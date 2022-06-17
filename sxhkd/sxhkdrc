@@ -2,6 +2,11 @@
 # Apps
 ####################################################################################
 
+# Screen Capture Full
+alt + shift + 5
+    flameshot full -d 3000
+
+
 # Screen Capture Gui
 alt + shift + 3
     flameshot gui
