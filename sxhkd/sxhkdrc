@@ -106,7 +106,7 @@ XF86MonBrightnessDown
 
 # Tor
 super + v
-	firejail /usr/bin/torbrowser-launcher
+	firejail /usr/bin/tor-browser
 
 # terminal Kitty
 alt + space
