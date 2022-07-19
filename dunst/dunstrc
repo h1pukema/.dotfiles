@@ -73,7 +73,7 @@
     # Draw a line of "separator_height" pixel height between two
     # notifications.
     # Set to 0 to disable.
-    separator_height = 1
+    separator_height = 2
 
     # Padding between text and separator.
     padding = 30
@@ -86,11 +86,11 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 1
+    frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#fff"
-    highlight = "#fff"
+    frame_color = "#5f80bb"
+    highlight = "#5f80bb"
 
     # Define a color for the separator.
     # possible values are:
@@ -98,7 +98,7 @@
     #  * foreground: use the same color as the foreground;
     #  * frame: use the same color as the frame;
     #  * anything else will be interpreted as a X color.
-    separator_color = "#fff" 
+    separator_color = "#5f80bb" 
 
     # Sort messages by urgency.
     sort = yes
@@ -294,15 +294,15 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#00000066"
-    foreground = "#fff"
+    background = "#00000088"
+    foreground = "#c5ccea"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#00000066"
-    foreground = "#fff"
+    background = "#00000088"
+    foreground = "#c5ccea"
     timeout = 10
     #frame_color = "#bf0202"
     # Icon for notifications with normal urgency, uncomment to enable
@@ -310,7 +310,7 @@
 
 [urgency_critical]
     background = "#bf0202"
-    foreground = "#ffffff"
+    foreground = "#c5ccea"
     frame_color = "#434c5e"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
