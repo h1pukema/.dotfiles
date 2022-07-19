@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#/usr/bin/env bash
 
 NOTIFY_ICON=/home/h1pukema/.local/icons/actualizar-pagina.png
 
